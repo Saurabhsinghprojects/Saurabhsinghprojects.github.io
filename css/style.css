@@ -101,7 +101,7 @@
   }
 
   .section-padding {
-    padding: 6rem 0;
+    padding: 3rem 0;
   }
 
   .custom-icon {
@@ -573,6 +573,7 @@
     .CTA-link {
       font-size: 28px;
     }
+   
   }
 
   @media screen and (max-width: 992px) {
@@ -610,11 +611,19 @@
   @media screen and (max-width: 480px) {
 
     .hero-title {
-      font-size: 26px;
+      font-size: 24px;
     }
 
     .CTA-link {
       font-size: 20px;
       padding: 0.3rem 2rem 0.6rem 2rem;
     }
+    p{
+      font-size: 16px;
+      line-height: 1.5em;
+    }
+    .card-body p{
+      font-size: 15px;
+    }
   }
+
